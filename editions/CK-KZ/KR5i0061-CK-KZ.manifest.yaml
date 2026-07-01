@@ -1,0 +1,49 @@
+canonical_identifier: bkk:krp/KR5i0061/CK-KZ/v1
+canonical_location: https://kanripo.org/bkk/KR5i0061/CK-KZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太公陰符經
+  date: '2015-08-29 17:54:41.415254'
+  source:
+    repository: kanripo
+    path: KR5i0061
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  edition:
+    short: CK-KZ
+    label: 【重刊道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0061_001-CK-KZ.yaml, hash: 'sha256:06d22d665325602789385241ee5b082b2b150b1716edad142f661362326ba590'}
+  - {seq: 2, filename: KR5i0061_002-CK-KZ.yaml, hash: 'sha256:1e3c3847000408c8f2a02275b8404c68f58f7ab2d91c85205bd8cc26b4ef76db'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0061_001-CK-KZ.markers.yaml, hash: 'sha256:bdcab683bfe79da1c6216589a116ca292b89a11259cdc8ccaf4bb36b60c48101'}
+  - {seq: 2, role: markers, filename: assets/KR5i0061_002-CK-KZ.markers.yaml, hash: 'sha256:7bc7dbc9c24cd5f44d8f431780007414f298229c0448d02ee98b8b653fef7623'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: CK-KZ_KR5i0061_01p001a
+    span:
+    - body
+    - 0
+    - 317
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: CK-KZ_KR5i0061_02p001a
+    span:
+    - body
+    - 0
+    - 12848
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:05b40ce8b6cef8199c80d8201009f09d9721748554d080565cb3638e1520eced
